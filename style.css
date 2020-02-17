@@ -57,6 +57,11 @@ footer{
   /* fine debug */
 }
 
+.main-container{
+  width: 90%;
+  margin: auto;
+}
+
 .left .box{
   /* debug */
   background-color: white;
