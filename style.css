@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  /* debug */
+  background-color: yellow;
+  height: 200px;
+  /* fine debug */
+}
+
+main{
+  /* debug */
+  background-color: green;
+  /* fine debug */
+}
+
+/* CLEARFIX */
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside{
+  /* debug */
+  background-color: blue;
+  height: 250px;
+  /* fine debug */
+  float: left;
+  width: 25%;
+}
+
+section{
+  /* debug */
+  background-color: red;
+  height: 500px;
+  /* fine debug */
+  float: left;
+  width: 50%;
+}
+
+footer{
+  /* debug */
+  background-color: grey;
+  height: 200px;
+  /* fine debug */
+}
