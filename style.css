@@ -48,3 +48,23 @@ footer{
   height: 200px;
   /* fine debug */
 }
+
+.left .box{
+  /* debug */
+  background-color: white;
+  height: calc(33% - 5px);
+  /* fine debug */
+  margin: 5px;
+}
+
+.right .box{
+  background-color: white;
+  height: calc(50% - 5px);
+  /* fine debug */
+  margin: 5px;
+}
+
+.post{
+  background-color: white;
+  margin: 5px;
+}
