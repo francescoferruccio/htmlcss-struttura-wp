@@ -35,7 +35,7 @@ main::after{
 aside{
   /* debug */
   background-color: blue;
-  height: 250px;
+  height: 100%;
   /* fine debug */
   float: left;
   width: 25%;
@@ -65,7 +65,7 @@ footer{
 .left .box{
   /* debug */
   background-color: white;
-  height: calc(33% - 5px);
+  height: 100px;
   /* fine debug */
   margin: 5px;
 }
@@ -73,7 +73,7 @@ footer{
 .right .box{
   /* debug */
   background-color: white;
-  height: calc(50% - 5px);
+  height: 50px;
   /* fine debug */
   margin: 5px;
 }
