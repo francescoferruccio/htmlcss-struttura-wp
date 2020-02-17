@@ -36,7 +36,7 @@ aside{
 section{
   /* debug */
   background-color: red;
-  height: 500px;
+  height: 800px;
   /* fine debug */
   float: left;
   width: 50%;
@@ -45,7 +45,7 @@ section{
 footer{
   /* debug */
   background-color: grey;
-  height: 200px;
+  /* height: 200px; */
   /* fine debug */
 }
 
@@ -58,6 +58,7 @@ footer{
 }
 
 .right .box{
+  /* debug */
   background-color: white;
   height: calc(50% - 5px);
   /* fine debug */
@@ -67,4 +68,34 @@ footer{
 .post{
   background-color: white;
   margin: 5px;
+}
+
+.box-small-footer{
+  /* debug */
+  background-color: white;
+  height: 150px;
+  border: 1px solid black;
+  /* fine debug */
+  float: left;
+  width: 20%;
+}
+
+.box-big-footer{
+  /* debug */
+  background-color: white;
+  height: 150px;
+  border: 1px solid black;
+  /* fine debug */
+  float: left;
+  width: 40%;
+}
+
+.pie-pagina{
+  /* debug */
+  background-color: white;
+  height: 50px;
+  border: 1px solid black;
+  /* fine debug */
+  clear: both;
+  width: 100%;
 }
